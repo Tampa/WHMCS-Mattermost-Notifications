@@ -4,10 +4,15 @@ Notifications module for WHMCS for Mattermost Webhooks
 # Setup
 
 -Place Mattermost.php and logo.svg inside the modules/notifications/Mattermost folder of your WHMCS Installation
+
 -Generate an incoming webhook in Mattermost for the notifications module to use
+
 -Navigate to the Notifications Settings in WHMCS and click Configure
+
 -Enter the Webhook you generated within Mattermost into the webhook field
+
 -If your Mattermost server does not have a valid certificate leave the SSL checkbox unchecked
+
 
 # Further Information
 
@@ -16,3 +21,5 @@ Notifications are sent via the webhook using curl, curl needs to be installed fo
 The notifications are delivered via the webhook BOT account in Mattermost, the name or icon for this bot cannot be changed.
 
 The module does not test the connection to your Mattermost server, if you do not receive notifications use the manual curl command provided in the Mattermost documentation on webhook usage.
+
+This module may be used as template for other notification modules.
