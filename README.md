@@ -18,8 +18,4 @@ Notifications module for WHMCS for Mattermost Webhooks
 
 Notifications are sent via the webhook using curl, curl needs to be installed for the notifications to work, please ensure you have curl installed on the machine running WHMCS!
 
-The notifications are delivered via the webhook BOT account in Mattermost, the name or icon for this bot cannot be changed.
-
-The module does not test the connection to your Mattermost server, if you do not receive notifications use the manual curl command provided in the Mattermost documentation on webhook usage.
-
 This module may be used as template for other notification modules.
